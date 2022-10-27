@@ -367,7 +367,7 @@ pageFilter();
 
 
 
-menuBtn.addEventListener('click', () => {
+menuBtn.addEventListener("click", () => {
     console.log("click");
     if(!menuOpen){
         menuBtn.classList.add('open');
