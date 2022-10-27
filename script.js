@@ -156,127 +156,127 @@ function pageFilter(){
 
     switch(path){
 
-        case "E-commerce/men.html":
+        case "/E-commerce/men.html":
             state = "men_all";
             track = false;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/men.html">MEN</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/men.html">MEN</a></li><li>/</li>`;
             break;
-        case "E-commerce/men_product="+ page +".html":
+        case "/E-commerce/men_product="+ page +".html":
             state = "men_all";
             track = true;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/men.html">MEN</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/men.html">MEN</a></li><li>/</li>`;
             break;
-        case "E-commerce/men_newarrivals.html":
+        case "/E-commerce/men_newarrivals.html":
             state = "men_newarrivals_all";
             track = false;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_newarrivals.html">NEW ARRIVALS</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_newarrivals.html">NEW ARRIVALS</a></li><li>/</li>`;
             break;
-        case "E-commerce/men_newarrivals="+ page +".html":
+        case "/E-commerce/men_newarrivals="+ page +".html":
             state = "men_newarrivals_all";
             track = true;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_newarrivals.html">NEW ARRIVALS</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_newarrivals.html">NEW ARRIVALS</a></li><li>/</li>`;
             break;
-        case "E-commerce/men_shirts.html":
+        case "/E-commerce/men_shirts.html":
             state = "men_tshirtstanks";
             track = false;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_shirts.html">SHIRTS</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_shirts.html">SHIRTS</a></li><li>/</li>`;
             break;
-        case "E-commerce/men_shirts="+ page +".html":
+        case "/E-commerce/men_shirts="+ page +".html":
             state = "men_tshirtstanks";
             track = true;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_shirts.html">SHIRTS</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_shirts.html">SHIRTS</a></li><li>/</li>`;
             break;
-        case "E-commerce/men_shorts.html":
+        case "/E-commerce/men_shorts.html":
             state = "men_shorts";
             track = false;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_shorts.html">SHORTS</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_shorts.html">SHORTS</a></li><li>/</li>`;
             break;
-        case "E-commerce/men_shorts="+ page +".html":
+        case "/E-commerce/men_shorts="+ page +".html":
             state = "men_shorts";
             track = true;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_shorts.html">SHORTS</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_shorts.html">SHORTS</a></li><li>/</li>`;
             break;
-        case "E-commerce/men_accessories.html":
+        case "/E-commerce/men_accessories.html":
             state = "men_accessories";
             track = false;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_accessories.html">ACCESSORIES</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_accessories.html">ACCESSORIES</a></li><li>/</li>`;
             break;
-        case "E-commerce/men_accessories="+ page +".html":
+        case "/E-commerce/men_accessories="+ page +".html":
             state = "men_accessories";
             track = true;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_accessories.html">ACCESSORIES</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_accessories.html">ACCESSORIES</a></li><li>/</li>`;
             break;
-        case "E-commerce/men_swimwear.html":
+        case "/E-commerce/men_swimwear.html":
             state = "men_swimweear";
             track = false;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_swimwear.html">SWIMWEAR</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_swimwear.html">SWIMWEAR</a></li><li>/</li>`;
             break;
-        case "E-commerce/men_swimwear="+ page +".html":
+        case "/E-commerce/men_swimwear="+ page +".html":
             state = "men_swimweear";
             track = true;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_swimwear.html">SWIMWEAR</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/men.html">MEN</a></li><li>/</li><li><a href="men_swimwear.html">SWIMWEAR</a></li><li>/</li>`;
             break;
-        case "E-commerce/women.html":
+        case "/E-commerce/women.html":
             state = "ladies_all";
             track = false;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/women.html">WOMEN</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/women.html">WOMEN</a></li><li>/</li>`;
             break;
-        case "E-commerce/women_product="+ page +".html":
+        case "/E-commerce/women_product="+ page +".html":
             state = "ladies_all";
             track = true;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/women.html">WOMEN</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/women.html">WOMEN</a></li><li>/</li>`;
             break;
-        case "E-commerce/women_newarrivals.html":
+        case "/E-commerce/women_newarrivals.html":
             state = "ladies_newarrivals_all";
             track = false;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_newarrivals.html">NEW ARRIVALS</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_newarrivals.html">NEW ARRIVALS</a></li><li>/</li>`;
             break;
-        case "E-commerce/women_newarrivals="+ page +".html":
+        case "/E-commerce/women_newarrivals="+ page +".html":
             state = "ladies_newarrivals_all";
             track = true;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_newarrivals.html">NEW ARRIVALS</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_newarrivals.html">NEW ARRIVALS</a></li><li>/</li>`;
             break;
-        case "E-commerce/women_swimwear.html":
+        case "/E-commerce/women_swimwear.html":
             state = "ladies_swimwear";
             track = false;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_swimwear.html">SWIMWEAR</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_swimwear.html">SWIMWEAR</a></li><li>/</li>`;
             break;
-        case "E-commerce/women_swimwear="+ page +".html":
+        case "/E-commerce/women_swimwear="+ page +".html":
             state = "ladies_swimwear";
             track = true;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_swimwear.html">SWIMWEAR</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_swimwear.html">SWIMWEAR</a></li><li>/</li>`;
             break;
-        case "E-commerce/women_dress.html":
+        case "/E-commerce/women_dress.html":
             state = "ladies_dresses";
             track = false;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_dress.html">DRESS</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_dress.html">DRESS</a></li><li>/</li>`;
             break;
-        case "E-commerce/women_dress="+ page +".html":
+        case "/E-commerce/women_dress="+ page +".html":
             state = "ladies_dresses";
             track = true;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_dress.html">DRESS</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_dress.html">DRESS</a></li><li>/</li>`;
             break;
-        case "E-commerce/women_accessories.html":
+        case "/E-commerce/women_accessories.html":
             state = "ladies_accessories";
             track = false;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_accessories.html">ACCESSORIES</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_accessories.html">ACCESSORIES</a></li><li>/</li>`;
             break;
-        case "E-commerce/women_accessories="+ page +".html":
+        case "/E-commerce/women_accessories="+ page +".html":
             state = "ladies_accessories";
             track = true;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_accessories.html">ACCESSORIES</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_accessories.html">ACCESSORIES</a></li><li>/</li>`;
             break;
-        case "E-commerce/women_premium.html":
+        case "/E-commerce/women_premium.html":
             state = "ladies_premium_selection";
             track = false;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_premium.html">PREMIUM</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_premium.html">PREMIUM</a></li><li>/</li>`;
             break;
-        case "E-commerce/women_premium="+ page +".html":
+        case "/E-commerce/women_premium="+ page +".html":
             state = "ladies_premium_selection";
             track = true;
-            document.querySelector(".bred").innerHTML = `<li><a href="E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_premium.html">PREMIUM</a></li><li>/</li>`;
+            document.querySelector(".bred").innerHTML = `<li><a href="/E-commerce/women.html">WOMEN</a></li><li>/</li><li><a href="women_premium.html">PREMIUM</a></li><li>/</li>`;
             break;
-        case "E-commerce//cart.html":
+        case "/E-commerce/cart.html":
 
             const keys = Object.keys(localStorage)
 
@@ -513,51 +513,51 @@ function go(){
                     
 
                         case "men_all":
-                            ad = `<a href ="E-commerce/men_product=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            ad = `<a href ="/E-commerce/men_product=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".ad-products_box").innerHTML += ad;
                             break;
                         case "men_newarrivals_all":
-                            ad = `<a href ="E-commerce/men_newarrivals=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            ad = `<a href ="/E-commerce/men_newarrivals=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".ad-products_box").innerHTML += ad;
                             break;
                         case "men_tshirtstanks":
-                            ad = `<a href ="E-commerce/men_shirts=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            ad = `<a href ="/E-commerce/men_shirts=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".ad-products_box").innerHTML += ad;  
                             break;
                         case "men_shorts": 
-                            ad = `<a href ="E-commerce/men_shorts=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            ad = `<a href ="/E-commerce/men_shorts=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".ad-products_box").innerHTML += ad;  
                             break;
                         case "men_accessories":
-                            ad = `<a href ="E-commerce/men_accessories=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            ad = `<a href ="/E-commerce/men_accessories=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".ad-products_box").innerHTML += ad;  
                             break;
                         case "men_swimweear":
-                            ad = `<a href ="E-commerce/men_swimwear=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            ad = `<a href ="/E-commerce/men_swimwear=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".ad-products_box").innerHTML += ad;  
                             break;
                         case "ladies_all":
-                            ad = `<a href ="E-commerce/women_product=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            ad = `<a href ="/E-commerce/women_product=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".ad-products_box").innerHTML += ad;
                             break;
                         case "ladies_newarrivals_all":
-                            ad = `<a href ="E-commerce/women_newarrivals=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            ad = `<a href ="/E-commerce/women_newarrivals=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".ad-products_box").innerHTML += ad;
                             break;
                         case "ladies_dresses":
-                            ad = `<a href ="E-commerce/women_dress=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            ad = `<a href ="/E-commerce/women_dress=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".ad-products_box").innerHTML += ad; 
                             break;
                         case "ladies_swimwear":
-                            ad = `<a href ="E-commerce/women_swimwear=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            ad = `<a href ="/E-commerce/women_swimwear=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".ad-products_box").innerHTML += ad;
                             break;
                         case "ladies_accessories":
-                            ad = `<a href ="E-commerce/women_accessories=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            ad = `<a href ="/E-commerce/women_accessories=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".ad-products_box").innerHTML += ad;
                             break;
                         case "ladies_premium_selection":
-                            ad = `<a href ="E-commerce/women_premium=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            ad = `<a href ="/E-commerce/women_premium=${tag}.html"> <li id="${tag}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".ad-products_box").innerHTML += ad;
                             break;
                         default:
@@ -590,51 +590,51 @@ function go(){
                     switch(state){
                     
                         case "men_all":
-                            shmoney = `<a href ="E-commerce/men_product=${id}.html"> <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            shmoney = `<a href ="/E-commerce/men_product=${id}.html"> <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".holster").innerHTML += shmoney;  
                             break;
                         case "men_newarrivals_all":
-                            shmoney = `<a href ="E-commerce/men_newarrivals=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            shmoney = `<a href ="/E-commerce/men_newarrivals=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".holster").innerHTML += shmoney;
                             break;
                         case "men_tshirtstanks":
-                            shmoney = `<a href ="E-commerce/men_shirts=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            shmoney = `<a href ="/E-commerce/men_shirts=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".holster").innerHTML += shmoney;  
                             break;
                         case "men_shorts": 
-                            shmoney = `<a href ="E-commerce/men_shorts=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            shmoney = `<a href ="/E-commerce/men_shorts=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".holster").innerHTML += shmoney;   
                             break;
                         case "men_accessories":
-                            shmoney = `<a href ="E-commerce/men_accessories=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            shmoney = `<a href ="/E-commerce/men_accessories=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".holster").innerHTML += shmoney;  
                             break;
                         case "men_swimweear":
-                            shmoney = `<a href ="E-commerce/men_swimwear=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            shmoney = `<a href ="/E-commerce/men_swimwear=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".holster").innerHTML += shmoney; 
                             break;
                         case "ladies_all":
-                            shmoney = `<a href ="E-commerce/women_product=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            shmoney = `<a href ="/E-commerce/women_product=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".holster").innerHTML += shmoney;
                             break;
                         case "ladies_newarrivals_all":
-                            shmoney = `<a href ="E-commerce/women_newarrivals=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            shmoney = `<a href ="/E-commerce/women_newarrivals=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".holster").innerHTML += shmoney; 
                             break;
                         case "ladies_dresses":
-                            shmoney = `<a href ="E-commerce/women_dress=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            shmoney = `<a href ="/E-commerce/women_dress=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".holster").innerHTML += shmoney;
                             break;
                         case "ladies_swimwear":
-                            shmoney = `<a href ="E-commerce/women_swimwear=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            shmoney = `<a href ="/E-commerce/women_swimwear=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".holster").innerHTML += shmoney;
                             break;
                         case "ladies_accessories":
-                            shmoney = `<a href ="E-commerce/women_accessories=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            shmoney = `<a href ="/E-commerce/women_accessories=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".holster").innerHTML += shmoney;  
                             break;
                         case "ladies_premium_selection":
-                            shmoney = `<a href ="E-commerce/women_premium=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
+                            shmoney = `<a href ="/E-commerce/women_premium=${id}.html" <li id="${id}"><img src="${image}"> <h2>${name}</h2> <p>${pricey}</p></li></a>`;
                             document.querySelector(".holster").innerHTML += shmoney;  
                             break;
                         default:
@@ -654,7 +654,7 @@ function go(){
 
 };
 
-if (path !== "/index.html" && path !== "E-commerce/cart.html"){
+if (path !== "/index.html" && path !== "/E-commerce/cart.html"){
     go();
     console.log("Api running");
 }
