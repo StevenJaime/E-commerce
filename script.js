@@ -368,6 +368,7 @@ pageFilter();
 
 
 menuBtn.addEventListener('click', () => {
+    console.log("click");
     if(!menuOpen){
         menuBtn.classList.add('open');
         burgerNav.classList.add('open');
