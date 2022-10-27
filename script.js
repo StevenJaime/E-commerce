@@ -441,6 +441,7 @@ function go(){
             let id = 0;
 
             library = data.results;
+            console.log(library);
             
             console.log("Api running");
             
