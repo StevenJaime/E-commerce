@@ -1464,6 +1464,12 @@ legend{
         width: 100%;
     }
 
+    
+    .top-nav-left_box{
+        display: none;
+    }
+
+
 
     .cta-box h1{
         font-size: 45px;
@@ -1510,6 +1516,10 @@ legend{
 
     .top-nav-left{
         justify-content: left;
+    }
+
+    .top-nav-left_box{
+        display: none;
     }
 
     .cta-box h1{
@@ -1740,6 +1750,11 @@ legend{
     .top-nav-left{
         justify-content: left;
     }
+
+    .top-nav-left_box{
+        display: none;
+    }
+
 
     .cta-box p{
         font-size: 15px;
