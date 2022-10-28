@@ -1536,6 +1536,9 @@ legend{
     }
 
    
+    .btn-box{
+        width: 100%;
+    }
   
     .new ul{
         grid-template-columns: repeat(2, 1fr);
@@ -1776,6 +1779,10 @@ legend{
 
     .shop-header p{
         font-size: 14px;
+    }
+
+    .btn-box{
+        width: 100%;
     }
 
     .holster{
