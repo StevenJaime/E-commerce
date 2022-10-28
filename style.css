@@ -1507,7 +1507,8 @@ legend{
     }
 
     .burger-nav.open{
-        width: 100%;
+        width: 100vw;
+        left:-13%;
     }
 
     .top-nav{   
@@ -1743,7 +1744,8 @@ legend{
     }
 
     .burger-nav.open{
-        width: 100%;
+        width: 100vw;
+        left:-13%;
     }
 
     .logo{
