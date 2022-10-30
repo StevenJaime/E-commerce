@@ -953,7 +953,6 @@ footer{
     display: flex;
     flex-direction: column;
     width: 6.2%;
-    height: 100vh;
     overflow: scroll;
 }
 
