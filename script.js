@@ -480,7 +480,7 @@ function go(){
 
                shuffle();
            
-
+/* remove first image from array */
                gal.map((item)=>{
 
                     let h = item.url;
@@ -499,6 +499,8 @@ function go(){
                         })
                     }
                });
+
+               
 
 
                 newLibrary.map((item) => {
