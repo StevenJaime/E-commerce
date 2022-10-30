@@ -952,7 +952,7 @@ footer{
 .product-gallery{
     display: flex;
     flex-direction: column;
-    width: 10%;
+    width: 6.2%;
     height: 100vh;
     overflow: scroll;
 }
