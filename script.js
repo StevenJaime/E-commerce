@@ -28,7 +28,7 @@ let clones = {};
 
 let a = document.createElement("div");
 a.setAttribute("id","preloader");
-let b = document.querySelector(".header");
+let b = document.querySelector(".res-box");
 document.body.insertBefore(a, b);
 
 function seek(str){
