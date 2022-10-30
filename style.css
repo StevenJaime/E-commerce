@@ -652,7 +652,7 @@ img{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 100%;
-    margin-bottom: 25px;
+    margin: 0 0 25px 0;
     padding: 0 70px;
 
     display: flex;
@@ -821,7 +821,7 @@ footer{
     display: flex;
     align-items: center;
     background-color: black;
-    margin: 0 4%;
+   
 }
 
 .footer-box{
@@ -1601,7 +1601,7 @@ legend{
 
     footer{
         height: auto;
-        margin: 0 4% 30px 4%;
+        margin-bottom: 30px;
         padding: 0;
     }
 
@@ -1901,7 +1901,7 @@ legend{
     }
 
     footer{
-        margin: 0 4% 30px 4%;
+        margin-bottom: 30px;
         padding: 0;
     }
 
