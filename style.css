@@ -8,6 +8,11 @@ body{
     box-sizing: border-box;
 }
 
+.res-box{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
 a:visited { 
     text-decoration: none; 
     color: black; 
