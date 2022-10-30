@@ -960,6 +960,10 @@ footer{
     display: none;
 }
 
+.product-gallery li:first-child{
+    display: none;
+}
+
 .product-gallery li {
     padding: 0;
 }
