@@ -743,7 +743,9 @@ document.querySelectorAll(".listItem-box").forEach( (a, b) => {
                         
                         
                        localStorage.removeItem(key); 
+                       klean();
                        console.log("hey");
+
 
                     };
 
