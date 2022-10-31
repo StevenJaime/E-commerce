@@ -662,6 +662,8 @@ if (path !== "/index.html" && path !== "/E-commerce/pages/cart.html"){
     console.log("Api running");
 }
 
+function judge(){
+
 document.querySelectorAll(".listItem-box").forEach( (a, b) => { 
     
     a.addEventListener("click", function(e){
@@ -793,7 +795,9 @@ document.querySelectorAll(".sizeBox").forEach( (a,b) => {
     })
 });
 
+};
 
+judge();
 
 var gate = true;
 
