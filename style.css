@@ -1796,7 +1796,7 @@ legend{
     }
 
     .holster{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         margin-bottom: 15%;
 
     }
@@ -1806,7 +1806,7 @@ legend{
     }
 
     .shop-grid{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         height: auto;
         grid-row-gap: 10px;
 
@@ -1834,11 +1834,11 @@ legend{
     }
 
     .new ul{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .ad-products_box ul{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .collections{
