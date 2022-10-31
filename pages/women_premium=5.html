@@ -12,10 +12,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="../style.css">
     <title>Document</title>
 </head>
 <body>
+
+
+<div class="res-box">
     <div class="header">
     
         <a>
@@ -33,36 +38,37 @@
         </div>
         <div class="burger-nav">
             <ul class="burger-table">
-                <li><a>Menu</a></li>
-                <li><a>Men</a></li>
-                <li><a>Women</a></li>
-                <li><a>Collections</a></li>
-                <li><a>Sale</a></li>
+                <li><a href="/E-commerce/pages/men.html">Men</a></li>
+                <li><a href="/E-commerce/pages/women.html">Women</a></li>
+                <li><a href="">Collections</a></li>
+                <li><a href="">Sale</a></li>
             </ul>
         </div>
         <div class="nav">
             <ul>
-                <li><a>Men</a></li>
-                <li><a>Women</a></li>
-                <li><a>Collections</a></li>
-                <li><a>Sale</a></li>
+                <li><a href="/E-commerce/pages/men.html">Men</a></li>
+                <li><a href="/E-commerce/pages/women.html">Women</a></li>
+                <li><a href="">Collections</a></li>
+                <li><a href="">Sale</a></li>
             </ul>
         </div>
     </div>
     <div class="logo">
-        <a></a>
+        <a href="../index.html">KAIMANA</a>
     </div>
     <div class="top-nav-right">
             <ul>
-                <li><a><span class="material-symbols-rounded">
-                    search
-                </span></a></li>
-                <li><a><span class="material-symbols-rounded">
-                    favorite
-                </span></a></li>
-                <li><a><span class="material-symbols-rounded">
-                    shopping_cart
-                </span></a></li>
+                <li>
+                    <a href="/E-commerce/pages/cart.html">
+                        <span class="material-symbols-rounded">
+                            shopping_cart
+                        </span>
+                    </a>
+
+                    <div class="cart-cnt">
+                            
+                    </div>
+                </li>
             </ul>
     </div>
     </div>
@@ -73,7 +79,12 @@
                 
             </ol>
         </div>
-        <div class="product-box">
+        
+            <div class="product-box">
+          
+            <div class="product-gallery">
+
+            </div>
             <div class="product-image">
                 
             </div>
@@ -84,86 +95,58 @@
                 <div class="product-color">
 
                         <legend> Color: 
-                            <span>Jet</span>
+                            <span id="item-color"></span>
                         </legend>
 
-                        <div class="colorPicker">
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                     <!--<div class="colorPicker"> 
+                            
                         </div>
-
+                         -->  
                 </div>
                 <div class="product-size">
-                        <label for="size">SIZE</label>
-                        <select name="Sizes" id="Sizes">
-                          <option value="SMALL">SMALL</option>
-                          <option value="MEDIUM">MEDIUM</option>
-                          <option value="LARGE">LARGE</option>
-                          <option value="XL">XL</option>
-                        </select>
+
+                    <legend> Size:</legend>
+
+                       <ul class="size">
+                        <li class="sizeBox">S</li>
+                        <li class="sizeBox">M</li>
+                        <li class="sizeBox">L</li>
+                        <li class="sizeBox">XL</li>
+                        <li class="sizeBox">XXL</li>
+                       </ul>
                 </div>
-                <div class="add-btn">ADD TO CART</div>
+                <div class="add-btn">
+                    <p id="add-p">ADD TO CART</p>
+                </div>
                 <div class="descriptions">
                         <div class="desc-box">
-                            <h4>Description</h4>
+                            <h4>Description <span class="material-icons plusIcon-cart">add</span></h4>
                             <div class="desc-drop">
                                 <ul>
-                                    <li>Store Location</li>
+                                    
                                 </ul>
                             </div>
                         </div>
                         <div class="desc-box">
-                            <h4>Details</h4>
+                            <h4>Details <span class="material-icons plusIcon-cart">add</span></h4>
                             <div class="desc-drop">
                                 <ul>
-                                    <li>Store Location</li>
+                                    
                                 </ul>
                             </div>
                         </div>
-                        <div class="desc-box">
-                            <h4>Delivery</h4>
-                            <div class="desc-drop">
-                                <ul>
-                                    <li>Store Location</li>
-                                </ul>
-                            </div>
-                        </div>
+                       
                 </div>
                 <div class="options"></div>
             </div>
-        </div>
+            </div>
+        
     </div>
 
     <div class="ad-products">
         <h4>YOU MAY ALSO LIKE</h4>
         <div class="ad-products_box">
-            <ul>
-                <li>
-                     <img src="/hat.jpg" alt="">
-                     <div class="detail">Straw hat</div>
-                     <div class="price">$40.00</div>
-                     
-                </li>
-                <li>
-                     <img src="/dress.jpg" alt="">
-                     <div class="detail">Straw hat</div>
-                     <div class="price">$40.00</div>
-                     
-                </li>
-                <li>
-                     <img src="/shoe.jpg" alt="">
-                     <div class="detail">Straw hat</div>
-                     <div class="price">$40.00</div>
-                     
-                </li>
-                <li>
-                     <img src="/shorts.jpg" alt="">
-                     <div class="detail">Straw hat</div>
-                     <div class="price">$40.00</div>
-  
-                </li>
-            </ul>
+            
         </div>
     </div>
 
@@ -219,7 +202,7 @@
             </div>
             <div class="footer-box-mobile">
                 <div class="footer-section-mobile">
-                    <h4>Information</h4>
+                    <h4>Information <span class="material-icons plusIcon-footer">add</span> </h4>
                     <div class="dropdown-nav">
                         <ul>
                             <li>About Us</li>
@@ -232,7 +215,7 @@
                     </div>
                 </div>
                 <div class="footer-section-mobile">
-                    <h4>Categories</h4>
+                    <h4>Categories <span class="material-icons plusIcon-footer">add</span> </h4>
                     <div class="dropdown-nav">
                         <ul>
                             <li>Men</li>
@@ -245,7 +228,7 @@
                     </div>
                 </div>
                 <div class="footer-section-mobile">
-                    <h4>Useful Links</h4>
+                    <h4>Useful Links <span class="material-icons plusIcon-footer">add</span> </h4>
                     <div class="dropdown-nav">
                         <ul>
                             <li>Store Location</li>
@@ -279,6 +262,7 @@
         </div>
      
     </div>
-    <script src="script.js" ></script>
+</div>
+    <script src="../script.js" ></script>
 </body>
 </html>
