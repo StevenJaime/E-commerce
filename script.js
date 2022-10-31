@@ -665,6 +665,7 @@ if (path !== "/index.html" && path !== "/E-commerce/pages/cart.html"){
 document.querySelectorAll(".listItem-box").forEach( (a, b) => { 
     
     a.addEventListener("click", function(e){
+        console.log(b);
         console.log(itemCard[b].amount)
         if(e.target.className === "card-qty_minus" && itemCard[b].amount > 1 ){
 
