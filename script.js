@@ -687,7 +687,7 @@ document.querySelectorAll(".listItem-box").forEach( (a, b) => {
                         cartTotalShow();
                         cartQty();
                         
-
+                        
                     return
                     }
 
@@ -743,6 +743,7 @@ document.querySelectorAll(".listItem-box").forEach( (a, b) => {
                         
                         
                        localStorage.removeItem(key); 
+                       console.log("hey");
 
                     };
 
