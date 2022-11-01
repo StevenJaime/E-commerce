@@ -822,10 +822,10 @@ form span{
 
 footer{
     padding: 30px;
-    color: #f0f0f0;
+    color: black;
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color: #f8f8f8;
    
 }
 
