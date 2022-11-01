@@ -1425,6 +1425,10 @@ legend{
 
 @media only screen and (min-width: 1280px){
 
+    .res-box{
+        width: 92%;
+    }
+
  
     .menu-btn,
     .burger-nav{
@@ -1444,6 +1448,11 @@ legend{
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+
+    .res-box{
+        width: 92%;
+    }
+
     .menu-btn,
     .burger-nav{
         display:none;
@@ -1456,6 +1465,12 @@ legend{
 }
  
 @media only screen and (min-width: 794px) and (max-width: 1023px) {
+
+    .res-box{
+        width: 92%;
+    }
+
+
     .nav,
     .burger-nav{
         display: none;
@@ -1502,6 +1517,12 @@ legend{
 /* TABLET BELOW */
  
 @media only screen and (min-width: 480px) and (max-width: 794px) { 
+
+    .res-box{
+        width: 98%;
+    }
+
+
     .nav,
     .burger-nav{
         display: none;
@@ -1726,6 +1747,10 @@ legend{
 
  
 @media only screen and (max-width: 480px) { 
+
+    .res-box{
+        width: 96%;
+    }
 
     .wrapper{
         width: 95%;
