@@ -131,7 +131,7 @@ li{
 .header{
     height: 20px;
     padding: 10px 30px;
-    background-color: black;
+    background-color: white;
     color: white;
     font-family: var(--main-font);
     font-size: 12px;

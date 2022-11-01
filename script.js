@@ -31,6 +31,8 @@ a.setAttribute("id","preloader");
 let b = document.querySelector(".res-box");
 document.body.insertBefore(a, b);
 
+document.querySelector(".header").innerHTML=""; /* temp clear header */
+
 function seek(str){
     var regex = /\d+/g;
     var string = str;
