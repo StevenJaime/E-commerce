@@ -677,16 +677,13 @@ document.querySelectorAll(".listItem-box").forEach( (a, b) => {
     
     
 
-    if( judgeState === 1){
-        a.removeEventListener("click", function(e){});
-    } else{
-
+ 
 
     a.addEventListener("click", function(e){
         console.log(b);
         console.log(itemCard[b].amount)
 
-        judgeState = 1;
+        
 
         if(e.target.className === "card-qty_minus" && itemCard[b].amount > 1 ){
 
@@ -763,7 +760,7 @@ document.querySelectorAll(".listItem-box").forEach( (a, b) => {
                         console.log("deleted")
                         
                         
-                        
+                      
                        localStorage.removeItem(key); 
                        klean();
                        console.log("hey");
@@ -782,6 +779,7 @@ document.querySelectorAll(".listItem-box").forEach( (a, b) => {
             cartTotalShow();
             cartQty();
             console.log("reach")
+            a.removeEventListener("click", function(){});
             return
 
         }
@@ -793,7 +791,7 @@ document.querySelectorAll(".listItem-box").forEach( (a, b) => {
 
     })
 
-  }
+  
 
 });
 
