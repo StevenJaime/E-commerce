@@ -669,6 +669,12 @@ if (path !== "/index.html" && path !== "/E-commerce/pages/cart.html"){
 }
 
 
+document.querySelectorAll(".trash").forEach((a)=>{
+    a.addEventListener("click", function(){
+        judge();
+    });
+})
+
 
 
 function judge(){
