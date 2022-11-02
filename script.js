@@ -780,6 +780,7 @@ document.querySelectorAll(".listItem-box").forEach( (a, b) => {
             cartQty();
             console.log("reach")
             a.removeEventListener("click", function(){});
+            
             return
 
         }
