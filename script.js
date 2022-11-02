@@ -679,6 +679,8 @@ document.querySelectorAll(".listItem-box").forEach( (a, b) => {
 
     if( judgeState === 1){
         a.removeEventListener("click", function(e){});
+        judgeState = 0;
+        judge();
     } else{
 
 
