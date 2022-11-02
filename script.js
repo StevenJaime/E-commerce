@@ -669,7 +669,7 @@ if (path !== "/index.html" && path !== "/E-commerce/pages/cart.html"){
 }
 
 
- var judgeState = 0;
+
 
 function judge(){
 
