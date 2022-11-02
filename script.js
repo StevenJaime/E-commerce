@@ -669,18 +669,12 @@ if (path !== "/index.html" && path !== "/E-commerce/pages/cart.html"){
 }
 
 
- var judgeState = 0;
+
 
 function judge(){
 
 document.querySelectorAll(".listItem-box").forEach( (a, b) => { 
     
-    
-
-    if( judgeState === 1){
-        a.removeEventListener("click", function(e){});
-    } else{
-
 
     a.addEventListener("click", function(e){
         console.log(b);
@@ -782,6 +776,7 @@ document.querySelectorAll(".listItem-box").forEach( (a, b) => {
             cartTotalShow();
             cartQty();
             console.log("reach")
+            a.removeEventListener("click", function(e){});
             return
 
         }
@@ -793,7 +788,7 @@ document.querySelectorAll(".listItem-box").forEach( (a, b) => {
 
     })
 
-  }
+  
 
 });
 
