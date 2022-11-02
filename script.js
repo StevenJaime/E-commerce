@@ -669,9 +669,11 @@ if (path !== "/index.html" && path !== "/E-commerce/pages/cart.html"){
 }
 
 
-document.querySelectorAll(".trash").forEach((a)=>{
-    a.addEventListener("click", function(){
+document.querySelectorAll(".listItem-box").forEach((a)=>{
+    a.addEventListener("click", function(e){
+        if(e.target.id === "trash"){
         judge();
+        }
     });
 })
 
