@@ -680,7 +680,7 @@ document.querySelectorAll(".listItem-box").forEach( (a, b) => {
         console.log(b);
         console.log(itemCard[b].amount)
 
-        judgeState = 1;
+       
 
         if(e.target.className === "card-qty_minus" && itemCard[b].amount > 1 ){
 
